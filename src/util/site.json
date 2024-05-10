@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "title": "Bijan John",
+    "titleTemplate": "%s",
+    "description": "A personal website for people to connect with Bijan",
+    "siteUrl": "https://bijanjohn.com",
+    "image": "/assets/b-heart.png",
+    "iconimage": "/assets/b-heart.png",
+    "twitterUsername": "none"
+  },
+  "ga": "UA-XXXXXXXXX-X"
+}
