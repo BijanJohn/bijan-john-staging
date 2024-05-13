@@ -37,8 +37,7 @@ const Checkout = () => {
             mode: "payment",
             lineItems: [{ price: "price_1PEk27Km88QUoiNLFW1zN8Qi", quantity: 1}],
             // replace these urls with your own
-            successUrl: `http://localhost:8000/payment-success/`,
-            cancelUrl: `http://localhost:8000/`,
+            successUrl: `http://bijanjohn.com/payment-success/`,
         })
 
         if (error) {

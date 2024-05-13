@@ -7,6 +7,9 @@ description: Post about passing AWS DevOps Professional Exam
 featuredImage: /assets/AWS-Certified-DevOps-Engineer-Professional_badge.png
 ---
 
+<img src="/assets/AWS-Certified-DevOps-Engineer-Professional_badge.png" alt="image of AWS Badge" width="300" style="display: block; margin: 0 auto;" />
+
+
 ## **Failure is just a stepping stone to success**
 
 At the end of 2022, I took the [AWS Certified DevOps Engineer - Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) Exam and failed it on my first attempt, obtaining a 699 out of 1000 where 750 would have been passing.<br>
