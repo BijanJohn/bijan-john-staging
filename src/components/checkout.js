@@ -20,7 +20,7 @@ const buttonStyles = {
 let stripePromise
 const getStripe = () => {
     if (!stripePromise) {
-        stripePromise = loadStripe("pk_test_51PEjWlKm88QUoiNL1WShPdX0WGmrVRrf8ItzLkujD5kXPcMPcW24B1LpKCByCk1azzZrsHsnktCCtNM1R5XLGxSN00oJtRB7uf")
+        stripePromise = loadStripe("pk_live_51PEjWlKm88QUoiNLK7GXvGw1mbXRnirjb1vpetBIPmsvMmCXtlWiTmQ54aPyx78dCJLm3wHa5aTwXX51hmofaeWT00J2zrYgrL")
     }
     return stripePromise
 }
@@ -35,14 +35,9 @@ const Checkout = () => {
         const stripe = await getStripe()
         const { error } = await stripe.redirectToCheckout({
             mode: "payment",
-            lineItems: [{ price: "price_1PEk27Km88QUoiNLFW1zN8Qi", quantity: 1}],
+            lineItems: [{ price: "price_1PEkCCKm88QUoiNLE0bTvNNn", quantity: 1}],
             // replace these urls with your own
-<<<<<<< HEAD
             successUrl: `http://bijanjohn.com/payment-success/`,
-=======
-            successUrl: `http://localhost:8000/payment-success/`,
-            cancelUrl: `http://localhost:8000/`,
->>>>>>> c998ebb (fix diffs)
         })
 
         if (error) {
