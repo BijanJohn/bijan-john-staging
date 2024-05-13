@@ -20,7 +20,10 @@ const buttonStyles = {
 let stripePromise
 const getStripe = () => {
     if (!stripePromise) {
-        stripePromise = loadStripe("pk_live_51PEjWlKm88QUoiNLK7GXvGw1mbXRnirjb1vpetBIPmsvMmCXtlWiTmQ54aPyx78dCJLm3wHa5aTwXX51hmofaeWT00J2zrYgrL")
+        // Production
+        //stripePromise = loadStripe("pk_live_51PEjWlKm88QUoiNLK7GXvGw1mbXRnirjb1vpetBIPmsvMmCXtlWiTmQ54aPyx78dCJLm3wHa5aTwXX51hmofaeWT00J2zrYgrL")
+        // Staging
+        stripePromise = loadStripe("pk_test_51PEjWlKm88QUoiNL1WShPdX0WGmrVRrf8ItzLkujD5kXPcMPcW24B1LpKCByCk1azzZrsHsnktCCtNM1R5XLGxSN00oJtRB7uf")
     }
     return stripePromise
 }
@@ -34,8 +37,20 @@ const Checkout = () => {
 
         const stripe = await getStripe()
         const { error } = await stripe.redirectToCheckout({
+            billingAddressCollection: "required",
+            shippingAddressCollection: {
+                allowedCountries: ['US'],
+            },
             mode: "payment",
-            lineItems: [{ price: "price_1PEkCCKm88QUoiNLE0bTvNNn", quantity: 1}],
+            lineItems: [
+                { 
+                    // Production
+                    //price: "price_1PEkCCKm88QUoiNLE0bTvNNn", 
+                    // Staging
+                    price: "price_1PEk27Km88QUoiNLFW1zN8Qi",
+                    quantity: 1
+                }
+            ],
             // replace these urls with your own
             successUrl: `http://bijanjohn.com/payment-success/`,
         })
