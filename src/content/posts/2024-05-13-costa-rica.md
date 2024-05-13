@@ -68,7 +68,7 @@ The reason I decided to go on the trip was because I knew Liz, who owns and oper
 
 <img src="/assets/bijan-and-liz.jpg" alt="image of Bijan and Liz"  />
 
-One of the best surprises was meeting my new friend Caitlin who lives at the retreat center with her mom Jane. This young woman is an herbalist, an experienced EFT expert, a chef who runs a catering company and a retreat coordinator. So is filled with so much wisdom and joy.
+One of the best surprises was meeting my new friend Caitlin who lives at the retreat center with her mom Jane. This young woman is an herbalist, an experienced EFT expert, a chef who runs a catering company and a retreat coordinator. She is filled with so much wisdom and joy.
 [https://www.vitalnectarholism.com/](https://www.vitalnectarholism.com/)
 
 <img src="/assets/bijan-and-caitlin.jpg" alt="image of Bijan and Caitlin"  />
@@ -129,8 +129,8 @@ To me, this is what they mean when they say *pura vida* in Costa Rica.
 
 > Break your confines by bus, plane, car, boat or your two feet<br>
 > this world has freedoms and life you have yet to discover<br>
-> fruits with unbique names, different from neighboring countries<br>
-> my friend tells me this as he peals a freshly picked papaya, pineapple<br>
+> fruits with unique names, different from neighboring countries<br>
+> my friend tells me this as he peals a freshly picked papaya, pineapple,<br>
 > watermelon, banana and watermelon<br>
 > pouring his soaked chia seeds on top with minced ginger and tumeric<br>
 > As we share a fruit bowl he tells me the fruit has each element one can need<br>
