@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [2.0.1] - 2024-05-13
+### Added
+- Blog post about Costa Rica
+
 ## [2.0.0] - 2024-05-08
 ### Refactor
 - Switched from Mkdocs and Python to using React/Gatsby/Javascript
