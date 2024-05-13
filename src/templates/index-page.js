@@ -1,4 +1,6 @@
 /** @jsx jsx */
+import React from "react"
+import Checkout from "../components/checkout"
 import { jsx } from "theme-ui"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
@@ -121,6 +123,7 @@ const HomePage = ({ data }) => {
             className="description"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+          <Checkout /><br></br>
           <Link
             to={frontmatter.cta.ctaLink}
             className="button"
